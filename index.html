@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Weather App</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Nova+Script" rel="stylesheet"> 
+    <link href="CSS/style.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div id="weatherIcon" class="col-md-4 col-md-offset-4 text-center">
+            </div>
+        </div>
+        <div class="row">
+            <div style="padding-top:60px;" class="col-md-4 col-md-offset-4 well text-center">
+                <h2><span id="temp"></span><span id="degree"> &#8451;</span></h2>
+                <div>
+                    <button class="btn btn-info btn-small" type="button" id="calculate">&#8457;/&#8451;</button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div style="padding-top:60px;" class="col-md-4 col-md-offset-4 well text-center">
+                <h2><span id="city"></span>, <span id="code"></span></h2>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+<!--
+    <p>Temperature: <span id="temp"></span></p>
+    <p>City: <span id="city"></span></p>
+    <p>Country Code: <span id="code"></span></p>
+    <p>Current Weather: <span id="weather"></span></p> -->

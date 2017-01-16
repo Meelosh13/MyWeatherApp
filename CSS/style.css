@@ -1,0 +1,84 @@
+body {
+    background-image: url("images/dandelions.jpg");
+    background-position: top;
+    background-color: skyblue;
+    font-family: 'Nova Script', cursive;
+}
+
+button {
+    border-radius: 50%;
+}
+
+.well {
+    background-color: lightgray;
+    border-radius: 50%;
+    height:200px;
+    width: 200px;
+    background-image: -moz-radial-gradient(45px 45px 45deg, circle cover, yellow 0%, orange 100%, red 95%);
+    background-image: -webkit-radial-gradient(45px 45px, circle cover, yellow, orange);
+	background-image: radial-gradient(45px 45px 45deg, circle cover, yellow 0%, orange 100%, red 95%);
+}
+
+.weatherIcon-someClouds {
+    background-image: url("images/Weather-icon.png");
+    width: 331.5px;
+    height: 337px;
+    background-position: 0 0;
+}
+
+.weatherIcon-clear { 
+    background-image: url("images/Weather-icon.png");
+    width: 331.5px;
+    height: 337px;
+    background-position: -337px 0;
+}
+
+.weatherIcon-cloud { 
+    background-image: url("images/Weather-icon.png");
+    width: 331.5px;
+    height: 337px;
+    background-position: 337px 0;
+}
+
+.weatherIcon-sunAndRain { 
+    background-image: url("images/Weather-icon.png");
+    width: 331.5px;
+    height: 337px;
+    background-position: 0 -337px;
+}
+
+.weatherIcon-rain { 
+    background-image: url("images/Weather-icon.png");
+    width: 331.5px;
+    height: 337px;
+    background-position: -337px -337px;
+}
+
+.weatherIcon-thunder { 
+    background-image: url("images/Weather-icon.png");
+    width: 331.5px;
+    height: 337px;
+    background-position: 337px -337px;
+}
+
+.weatherIcon-thunderAndRain { 
+    background-image: url("images/Weather-icon.png");
+    width: 331.5px;
+    height: 337px;
+    background-position: 0 337px;
+}
+
+.weatherIcon-snowAndRain { 
+    background-image: url("images/Weather-icon.png");
+    width: 331.5px;
+    height: 337px;
+    background-position: -337px 337px;
+}
+
+.weatherIcon-snow { 
+    background-image: url("images/Weather-icon.png");
+    width: 331.5px;
+    height: 337px;
+    background-position: 337px 337px;
+}
+
